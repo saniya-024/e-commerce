@@ -64,7 +64,7 @@
     width: 100%;
     height: 80vh;
     
-    background:linear-gradient(90deg,#00000099,#00000033), url(./imagess/Hero.png);
+    background:linear-gradient(90deg,#00000099,#00000033), url("/asset/images/Hero.png");
     background-size: cover;
     position: relative;
 }
