@@ -1026,3 +1026,168 @@ font-size:14px;
           gap: 10px;
         }
       /*  */
+
+      .content {
+        display: flex;
+        justify-content: center;
+        padding-top: 60px;
+        padding-bottom: 30px;
+        font-weight: 700;
+        background: aliceblue;
+      }
+      .text p {
+        align-items: center;
+        text-align: center;
+        background: aliceblue;
+        padding-bottom: 20px;
+      }
+      .contact{
+        /* padding-top: 30px; */
+      }
+      .contact h3{
+      
+      }
+      .contact p{
+        padding-left: 60px;
+      margin-top: -10px;
+        
+      }
+      .info{
+        padding-top: 30px;
+        display: flex;
+        gap:10px;
+      }
+      .info img{
+        width:50px;
+        height:50px;
+      }
+      .map{
+        width: 684px;
+height: 256px;
+background:rgba(128, 128, 128, 0.153);
+border-radius: 14px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+      }
+      .map h5{
+        color:grey;
+      }
+
+
+    .mess{
+        /* padding-left: 70px; */
+      }
+      .main{
+        display: flex;
+        gap:9px;
+        padding-top: 90px;
+        /* padding-left: 30px; */
+      }
+      .contact{
+        padding-left:90px;
+
+      }
+      .tell{
+        margin-left: 20px;
+      }
+      .first{
+        display:flex;
+        gap:250px;
+        padding-top:20px;
+    
+      
+      }
+      .sec{
+        padding-top: 10px;
+        /* padding: 10px; */
+        display: flex;
+        gap:75px;
+        
+        
+      }
+      .name{
+        font-weight: 600;
+        font-size: large;
+    
+      }
+      .name2{
+        font-weight: 600;
+        padding-top: 35px;
+        font-size: large;
+      }
+      #Email{
+        width:520px;
+        margin-top: 10px;
+        padding: 10px;
+        /* border-radius: 10px; */
+      }
+      #Phone{
+        width:520px;
+        margin-top: 10px;
+        padding: 10px;
+
+      }
+      #Subject{
+        width:520px;
+        margin-top: 10px;
+        padding: 10px;
+      }
+      #Message{
+        width:520px;
+        height:250px;
+        padding-bottom: 200px;
+      }
+      .name4{
+        background-color: rgba(128, 128, 128, 0);
+        /* width:100%; */
+        
+        
+        border-radius: 50px;
+        /* width:520px; */
+      }
+      .name3{
+        /* width:800 px; */
+        /* height:200px; */
+        border-radius: 5px;
+        /* border:1px solid black; */
+        background-color:rgba(128, 128, 128, 0.214);
+      }
+      .send{
+        width:100%;
+        height:100%;
+        margin-top:40px;
+        background-color: black;
+        color:white;
+        margin-left: 10px;
+        border-radius: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+      .question{
+        padding-top:60px ;
+        /* padding-left: 540px; */
+        margin-top: 50px;
+        height:500px;
+        width:100%;
+        background-color: aliceblue;
+      }
+      .que{
+        /* margin-top: 20px; */
+        padding-left: 400px;
+        padding-bottom: 60px;
+
+      }
+      .order{
+        padding-left:40px;
+        
+      }
+      .order h5{
+        font-weight: 600;
+      
+      
+      }
+      .order p{
+        color:gray;
+      }
