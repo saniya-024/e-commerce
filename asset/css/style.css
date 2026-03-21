@@ -1092,7 +1092,7 @@ justify-content: center;
       .tell4{
         margin-left: 20px;
       }
-      .first4{
+      .first{
         display:flex;
         gap:250px;
         padding-top:20px;
@@ -1175,12 +1175,12 @@ justify-content: center;
       }
       .que4{
         /* margin-top: 20px; */
-        padding-left: 400px;
+        padding-left: 550px;
         padding-bottom: 60px;
 
       }
       .order4{
-        padding-left:40px;
+        padding-left:190px;
         
       }
       .order4 h5{
