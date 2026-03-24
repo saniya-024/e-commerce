@@ -147,6 +147,7 @@
     top: 240px;
     color: var(--main-color);
     padding-left: 20px;
+    font-weight:500;
 }
 
 .twoo1 {
@@ -204,6 +205,7 @@
     justify-content: space-between;
     display: flex;
     padding-left: 90px;
+    padding-top: 50px;
 
 
 
@@ -212,7 +214,11 @@
 }
 
 .view1 {
-    padding-right: 155px;
+    padding: 15px;
+    border-radius: 10px;
+    
+
+    margin-right: 160px;
 }
 
 
@@ -270,6 +276,7 @@ h4 {
     border-radius: 10px;
     width: 140px;
     margin-top: 10px;
+    
 
 
 }
