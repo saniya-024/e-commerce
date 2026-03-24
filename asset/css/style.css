@@ -1036,12 +1036,12 @@ padding-top:20px;
 font-size:14px;
 /* } */
      
-      /* @media (max-width: 768px) { 
+        /* @media (max-width: 768px) {   
         .pro-container {
           flex-direction: column;
           gap: 10px;
-        }
-      /*  */
+        /* } */
+    
 
       .content4 {
         display: flex;
