@@ -1,0 +1,218 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* HEADER */
+.head1 {
+    padding: 15px 40px;
+    background: #fff;
+}
+
+.text1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.items1 {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+.items1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.imagee1 i {
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+/* HERO SECTION */
+.background1 {
+    height: 80vh;
+    background: url('/asset/images/banner.png') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+
+.rel1 h1 {
+    font-size: 40px;
+}
+
+.rel1 p {
+    margin: 10px 0;
+}
+
+.butt1, .button1 {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* CATEGORY */
+.picture1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 40px;
+    text-align: center;
+}
+
+.picture1 img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* PRODUCTS */
+.car1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    padding: 40px;
+}
+
+.shoes1 {
+    border: 1px solid #eee;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.shoes1 img {
+    width: 100%;
+}
+
+.star1 img {
+    width: 15px;
+}
+
+.dollar1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* SUMMER SECTION */
+.sunny1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    gap: 30px;
+}
+
+.sunny-image1 img {
+    width: 100%;
+}
+
+/* FEATURES */
+.feature-container1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 40px;
+    text-align: center;
+}
+
+.feature-card1 img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+/* FOOTER */
+.footer {
+    background: #111;
+    color: white;
+    padding: 40px;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* ========================= */
+/* 📱 RESPONSIVE DESIGN */
+/* ========================= */
+
+/* TABLET */
+@media (max-width: 992px) {
+
+    .picture1 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .car1 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .feature-container1 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .sunny1 {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+/* MOBILE */
+@media (max-width: 576px) {
+
+    .text1 {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .items1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .picture1 {
+        grid-template-columns: 1fr;
+    }
+
+    .car1 {
+        grid-template-columns: 1fr;
+    }
+
+    .feature-container1 {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-container {
+        grid-template-columns: 1fr;
+    }
+
+    .background1 {
+        height: auto;
+        text-align: center;
+        padding: 30px;
+    }
+
+    .rel1 h1 {
+        font-size: 28px;
+    }
+}
