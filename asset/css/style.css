@@ -730,33 +730,36 @@ border-radius:5px;
 
 .Detail2 {
   background-color: black;
-  color: white;
+  /* color: white; */
   border-radius: 10px;
   /* width: 10px;    */
   margin-top: 10px;
   display: flex;
 
   gap: 5px;
-  height:60px;
+  /* height:60px; */
 
 
 }
 
 .Detail2 i {
   color: white;
-  padding-left: 15px;
+  /* padding-left: 15px; */
 }
 
 
  .pro-card2 button {  
   /* width: 55%; */
-  height:45%;
+  height:40%;
   padding: 10px;
-  border: none;
+  margin-top: 2px;
+  
+  /* border: none; */
   background: var(--primary-color);
   color: white;
   border-radius: 10px;
   cursor: pointer;
+  margin-bottom: 20px;
   /* transition: 0.3s; */
 }
 
