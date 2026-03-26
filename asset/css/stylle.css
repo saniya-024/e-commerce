@@ -1,0 +1,275 @@
+:root {
+  --main-color: #fff;
+  --primary-color: #000;
+  --secondary-color: #777;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ================= NAVBAR ================= */
+.head1 {
+  height: 70px;
+  padding: 0 20px;
+  background-color: var(--main-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text1 {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.items1 {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+}
+
+.items1 a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-weight: 500;
+}
+
+.imagee1 {
+  display: flex;
+  gap: 15px;
+  font-size: 18px;
+}
+
+/* ================= SHOP HEADER ================= */
+.shop-upper2 {
+  background: #f5f5f5;
+  padding: 20px;
+}
+
+.hash2 {
+  font-size: 14px;
+  color: var(--secondary-color);
+}
+
+/* ================= TOP BAR ================= */
+.shop-product2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+
+.sort2 select {
+  padding: 6px;
+  border-radius: 5px;
+}
+
+/* ================= MAIN LAYOUT ================= */
+.lists2 {
+  display: flex;
+  gap: 30px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+/* ================= FILTER ================= */
+.filters2 {
+  width: 250px;
+  background: #f8f8f8;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.filters2 h4,
+.filters2 h5 {
+  margin: 15px 0;
+}
+
+.filters2 label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.size2 button {
+  margin: 5px;
+  padding: 5px 10px;
+  border: 1px solid black;
+  background: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.color2 span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin: 5px;
+  border: 1px solid #000;
+}
+
+.clr1 { background: black; }
+.clr2 { background: white; }
+.clr3 { background: grey; }
+.clr4 { background: gold; }
+.clr5 { background: blue; }
+.clr6 { background: red; }
+
+.clear2 {
+  margin-top: 15px;
+  padding: 8px;
+  width: 100%;
+  border: 1px solid black;
+  background: white;
+  cursor: pointer;
+}
+
+/* ================= PRODUCTS ================= */
+.pro-container2 {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.pro-card2 {
+  width: calc(33.33% - 20px);
+  background: #fff;
+}
+
+.pro-card2 img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.pro-card2 h3 {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.rating2 i {
+  color: gold;
+  font-size: 14px;
+}
+
+.view2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Detail2 {
+  background: black;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* ================= PAGINATION ================= */
+.pagination2 {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 30px 0;
+}
+
+.pagination2 span,
+.pagination2 button {
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.active2 {
+  background: black;
+  color: white;
+}
+
+/* ================= FEATURES ================= */
+.method2 {
+  background: #f8f8f8;
+  padding: 40px 20px;
+}
+
+.method-container2 {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.method-card2 {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+  text-align: center;
+}
+
+/* ================= FOOTER ================= */
+.footer {
+  background: #111;
+  color: white;
+  padding: 40px 20px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer p {
+  color: #aaa;
+  font-size: 14px;
+}
+
+.footer-newsletter button {
+  margin-top: 10px;
+  padding: 8px 15px;
+  background: orange;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 13px;
+  border-top: 1px solid #444;
+  padding-top: 10px;
+}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 992px) {
+  .pro-card2 {
+    width: calc(50% - 20px);
+  }
+
+  .lists2 {
+    flex-direction: column;
+  }
+
+  .filters2 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .pro-card2 {
+    width: 100%;
+  }
+
+  .items1 {
+    display: none;
+  }
+}
