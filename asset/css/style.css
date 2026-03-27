@@ -1343,6 +1343,9 @@ border-radius:5px;
 
 /* Mobile view */
 @media (max-width: 768px) {
+  .imagee1{
+    display: none;
+  }
   .hamburger{
     display: block;
   }
@@ -1366,11 +1369,6 @@ border-radius:5px;
     display: flex;
   }
 
-}
-✅
-.items1{
-  display: none;
-}
   .rel1 h1 {
     font-size: 28px;
   }
