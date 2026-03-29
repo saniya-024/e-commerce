@@ -1295,11 +1295,7 @@ img {
   text-align: center;
 }
 
-/* .picture1 {
-  padding: 20px;
-  flex-wrap: wrap;
-  justify-content: center;
-} */
+
 .picture1 {
   padding: 20px;
   display: flex;
