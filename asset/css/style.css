@@ -205,7 +205,10 @@
 .hero1 {
 
   padding: 20px;
-  flex-wrap: wrap;
+  display: flex;
+justify-content: space-between;
+margin-left: 110px;
+  /* flex-wrap: wrap; */
 
 
 }
@@ -213,10 +216,10 @@
 .view1 {
   padding: 5px;
   border-radius: 10px;
-  border: none;
+  border:none;
 
 
-  margin-right: 160px;
+  margin-right: 190px;
 }
 
 
