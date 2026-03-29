@@ -15,8 +15,8 @@
   height: 12vh;
   padding: 18px 0px;
   background-color: var(--main-color);
-  position:sticky;
-  top:0px;
+  position: sticky;
+  top: 0px;
   z-index: 1;
   display: flex;
   align-items: center;
@@ -78,6 +78,7 @@
   background: linear-gradient(90deg, #00000099, #00000033), url("/asset/images/Hero.png");
   background-size: cover;
   position: relative;
+  background-position: center;
 }
 
 .rel1 {
@@ -203,13 +204,8 @@
 
 .hero1 {
 
-  justify-content: space-between;
-  display: flex;
-  padding-left: 90px;
-  padding-top: 50px;
-
-
-
+  padding: 20px;
+  flex-wrap: wrap;
 
 
 }
@@ -318,6 +314,10 @@ h4 {
 
 }
 
+.sunny-image1 {
+  width: 20px;
+}
+
 .feature1 {
   padding: 30px;
   text-align: center;
@@ -378,7 +378,7 @@ h4 {
   color: var(--main-color);
   /* padding: 60px 80px; */
   margin-top: 60px;
-  width: 100%;
+  /* width: 100%; */
 }
 
 .footer-container {
@@ -446,7 +446,7 @@ border-radius:5px;
   color: var(--main-color);
   cursor: pointer;
   border-radius: 5px;
-  margin-left: 180px;
+  margin-left: 0px;
   /* padding-right: 20px; */
 }
 
@@ -800,7 +800,7 @@ border-radius:5px;
   display: flex;
 
 
-  
+
 }
 
 .method-card2 {
@@ -1217,14 +1217,16 @@ border-radius:5px;
 
 .que4 {
   /* margin-top: 20px; */
-  padding-left: 550px;
+  padding-left: 0px;
   padding-bottom: 40px;
+  text-align: center;
 
 
 }
 
 .card4 {
-  margin-left: 400px;
+  margin: 0 auto;
+
 
 }
 
@@ -1234,12 +1236,14 @@ border-radius:5px;
   justify-content: center;
   flex-direction: column;
   padding-top: 20px;
-  /* margin-bottom:20px; */
+  
   gap: 5px;
   display: flex;
-  width: 700px;
+  width: 100%;
   border-radius: 10px;
   margin-bottom: 10px;
+  max-width: 700px;
+
 
 
 }
@@ -1254,47 +1258,140 @@ border-radius:5px;
   color: gray;
   font-size: 10px;
 }
+
 .hamburger {
   display: none;
   font-size: 28px;
   cursor: pointer;
 }
 
+.menuicon {
+  display: none;
+}
+
+#menu-toggle {
+  display: none;
+}
 
 
-/* ================= RESPONSIVE CSS ================= */
 
-/* Tablet view */
-@media (max-width: 1024px) {
+/* ================= FINAL CLEAN RESPONSIVE FIX ================= */
 
-  .head1 {
-    
-    height: auto;
-    gap: 10px;
+/* GLOBAL FIX (side space remove) */
+body {
+  overflow-x: hidden;
+}
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ===== MAIN OVERFLOW FIXES ===== */
+
+/* remove large left paddings */
+.para1 {
+  padding-left: 0;
+  text-align: center;
+}
+
+/* .picture1 {
+  padding: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+} */
+.picture1 {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* hero section spacing */
+.hero1 {
+  padding-left: 20px;
+}
+
+/* product section */
+.car1 {
+  padding-left: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* footer button fix */
+.footer-newsletter button {
+  margin-left: 0;
+}
+
+/* contact section fix */
+.contact4 {
+  padding-left: 20px;
+}
+
+.card4 {
+  margin-left: 0;
+}
+
+.order4 {
+  width: 100%;
+}
+
+.que4 {
+  padding-left: 0;
+  text-align: center;
+}
+
+/* form fix */
+#Email,
+#Phone,
+#Subject,
+#Message {
+  width: 100%;
+}
+
+/* ===== HAMBURGER MENU ===== */
+@media (max-width: 768px) {
+
+  .hamburger {
+    display: block;
+    padding-right: 20px;
   }
 
   .items1 {
-    
-  
-    display:none;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    background: white;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    display: none;
+    padding: 20px 0;
   }
 
-  .text1 {
-    /* flex-direction: column; */
+  .items1.active {
+    display: flex;
+  }
+}
+
+/* ===== TABLET ===== */
+@media (max-width: 1024px) {
+
+  .head1 {
+    flex-direction: column;
+    height: auto;
     gap: 10px;
   }
 
-  .picture1 {
+  .items1 {
     flex-wrap: wrap;
-    padding: 20px;
     justify-content: center;
   }
 
-  .car1 {
-    flex-wrap: wrap;
-    justify-content: center;
-    padding-left: 0;
+  .text1 {
+    flex-direction: column;
   }
 
   .sunny1 {
@@ -1332,68 +1429,29 @@ border-radius:5px;
     gap: 10px;
   }
 
-  #Email,
-  #Phone,
-  #Subject,
-  #Message {
-    width: 100%;
-  }
 }
 
-
-/* Mobile view */
+/* ===== MOBILE ===== */
 @media (max-width: 768px) {
-  .imagee1{
-    display: none;
+
+  .head1 {
+    flex-direction: row;
   }
-  .hamburger{
-    display: block;
-  }
-    .items1 {
-    position: absolute;
-    top: 70px;
-    right: 0;
-    background: white;
-    width: 100%;
+
+  .items1 {
     flex-direction: column;
-    align-items: center;
-    gap: 20px;
-
-    /* hidden by default */
-    display: none;
-    padding: 20px 0;
-  }
-
-  /* when active */
-  .items1.active {
-    display: flex;
-  }
-
-  .rel1 h1 {
-    font-size: 28px;
   }
 
   .rel1 {
     top: 30%;
   }
 
-  .para1 {
-    padding-left: 0;
-    text-align: center;
+  .rel1 h1 {
+    font-size: 26px;
   }
 
   .picture1 {
-    padding: 10px;
-  }
-
-  .one1 img {
-    width: 100%;
-  }
-
-  .hero1 {
     flex-direction: column;
-    padding-left: 20px;
-    gap: 10px;
   }
 
   .car1 {
@@ -1408,10 +1466,6 @@ border-radius:5px;
   .footer-container {
     flex-direction: column;
     gap: 20px;
-  }
-
-  .footer-newsletter button {
-    margin-left: 0;
   }
 
   .features3 {
@@ -1430,25 +1484,90 @@ border-radius:5px;
   }
 
   .main4 {
+    flex-direction: column;
     padding: 20px;
   }
 
-  .contact4 {
-    padding-left: 20px;
+}
+
+/* ===== FINAL RESPONSIVE ===== */
+
+body {
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+
+  .head1 {
+    flex-wrap: wrap;
   }
 
-  .card4 {
-    margin-left: 0;
+  .items1 {
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
   }
 
-  .order4 {
+  .text1 {
+    flex-direction: column;
+  }
+
+  .hero1 {
+    flex-direction: column;
+  }
+
+  .car1 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .picture1 {
+    flex-direction: column;
+  }
+
+  .sunny1 {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .sunny-text1 {
     width: 100%;
   }
 
-  .que4 {
-    padding-left: 0;
-    text-align: center;
+  .feature-container1 {
+    flex-direction: column;
   }
+
+  .footer-container {
+    flex-direction: column;
+  }
+
+  .lists2 {
+    flex-direction: column;
+  }
+
+  .filters2 {
+    width: 100%;
+  }
+
+  .pro-card2 {
+    width: 100%;
+  }
+
+  .main4 {
+    flex-direction: column;
+  }
+
+  .first,
+  .sec4 {
+    flex-direction: column;
+    gap: 10px;
+  }
+
 }
-
-
