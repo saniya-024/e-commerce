@@ -207,7 +207,7 @@
   padding: 20px;
   display: flex;
 justify-content: space-between;
-margin-left: 110px;
+margin-left: 79px;
   /* flex-wrap: wrap; */
 
 
@@ -217,7 +217,7 @@ margin-left: 110px;
   padding: 5px;
   border-radius: 10px;
   border:none;
-  margin-right: 115px;
+  margin-right: 150px;
 
 
 
@@ -1269,240 +1269,13 @@ border-radius:5px;
   cursor: pointer;
 }
 
-.menuicon {
-  display: none;
-}
-
-#menu-toggle {
-  display: none;
-}
 
 
 
 /* ================= FINAL CLEAN RESPONSIVE FIX ================= */
-
-/* GLOBAL FIX (side space remove) */
-body {
-  overflow-x: hidden;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-/* ===== MAIN OVERFLOW FIXES ===== */
-
-/* remove large left paddings */
-.para1 {
-  padding-left: 0;
-  text-align: center;
-}
-
-
-.picture1 {
-  padding: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-/* hero section spacing */
-.hero1 {
-  padding-left: 20px;
-}
-
-/* product section */
-.car1 {
-  padding-left: 20px;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-/* footer button fix */
-.footer-newsletter button {
-  margin-left: 0;
-}
-
-/* contact section fix */
-.contact4 {
-  padding-left: 20px;
-}
-
-.card4 {
-  margin-left: 0;
-}
-
-.order4 {
-  width: 100%;
-}
-
-.que4 {
-  padding-left: 0;
-  text-align: center;
-}
-
-/* form fix */
-#Email,
-#Phone,
-#Subject,
-#Message {
-  width: 100%;
-}
-
 /* ===== HAMBURGER MENU ===== */
-@media (max-width: 768px) {
-
-  .hamburger {
-    display: block;
-    padding-right: 20px;
-  }
-
-  .items1 {
-    position: absolute;
-    top: 70px;
-    right: 0;
-    background: white;
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    display: none;
-    padding: 20px 0;
-  }
-
-  .items1.active {
-    display: flex;
-  }
-}
-
-/* ===== TABLET ===== */
-@media (max-width: 1024px) {
-
-  .head1 {
-    flex-direction: column;
-    height: auto;
-    gap: 10px;
-  }
-
-  .items1 {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .text1 {
-    flex-direction: column;
-  }
-
-  .sunny1 {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .sunny-text1 {
-    width: 100%;
-  }
-
-  .feature-container1 {
-    flex-wrap: wrap;
-  }
-
-  .lists2 {
-    flex-direction: column;
-  }
-
-  .filters2 {
-    width: 100%;
-  }
-
-  .pro-card2 {
-    width: 45%;
-  }
-
-  .main4 {
-    flex-direction: column;
-  }
-
-  .first,
-  .sec4 {
-    flex-direction: column;
-    gap: 10px;
-  }
-
-}
-
-/* ===== MOBILE ===== */
-@media (max-width: 768px) {
-
-  .head1 {
-    flex-direction: row;
-  }
-
-  .items1 {
-    flex-direction: column;
-  }
-
-  .rel1 {
-    top: 30%;
-  }
-
-  .rel1 h1 {
-    font-size: 26px;
-  }
-
-  .picture1 {
-    flex-direction: column;
-  }
-
-  .car1 {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .pro-card2 {
-    width: 100%;
-  }
-
-  .footer-container {
-    flex-direction: column;
-    gap: 20px;
-  }
-
-  .features3 {
-    flex-direction: column;
-    padding: 20px;
-  }
-
-  .assume3 {
-    flex-direction: column;
-    gap: 20px;
-  }
-
-  .block3 {
-    flex-direction: column;
-    gap: 20px;
-  }
-
-  .main4 {
-    flex-direction: column;
-    padding: 20px;
-  }
-
-}
-
-/* ===== FINAL RESPONSIVE ===== */
-
-body {
-  overflow-x: hidden;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-
 /* MOBILE */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) { 
 
   .head1 {
     flex-wrap: wrap;
@@ -1569,5 +1342,3 @@ img {
     flex-direction: column;
     gap: 10px;
   }
-
-}
