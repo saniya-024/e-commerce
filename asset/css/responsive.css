@@ -5,16 +5,44 @@
   .feature1{
     background-color: blue;
   }
-  /* .feature-card1{ 
-    background-color: blue;
-  /* } */
+  .items1 {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    width: 100%;
+    background: white;
+    padding: 20px;
+    text-align: center;
+  }
+
+
+  .items1.active {
+    display: flex;
+  }
+  .imagee1{
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
 }
 @media(max-width:480px){
   .feature1{
     background-color: yellow;
 
   }
+  .imagee1{
+    display: none;
+  }
   /* .feature-card1{ 
     background-color: yellow;
   /* } */
 }
+/* Mobile */
+@media (max-width: 768px) {
+
+  
