@@ -140,15 +140,27 @@
   border-radius: 50px;
   gap: 20px;
 
+
   /* background-image: url("/Container\ \(2\).png"); */
 
 }
 
-
-.one1 {
-  position: relative;
-  /* width:600px; */
+.picture1 div{
+  height:220px;
+  width:100px;
+  
 }
+.picture1:first-child{
+background-image: url("/asset/images/men\ wear.png");
+
+}
+.
+
+
+/* .one1 { 
+  position: relative;
+  /* width:600px; 
+/* } */
 
 .two1 {
   position: absolute;
@@ -165,7 +177,7 @@
   padding-left: 20px;
 }
 
-.twooo1 {
+/* .twooo1 { 
   position: absolute;
   top: 240px;
   color: var(--main-color);
@@ -207,7 +219,7 @@
   color: var(--main-color);
   padding-left: 20px;
 }
-
+/*  */
 .hero1 {
 
   padding: 20px;
