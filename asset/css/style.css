@@ -337,12 +337,14 @@ h4 {
   display: flex;
   justify-content: center;
   gap: 30px;
+  
   /* flex-wrap: wrap; */
 }
 
 .feature-card1 {
   /* width:20%; */
   background: #f8f8f8;
+
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
@@ -1272,73 +1274,3 @@ border-radius:5px;
 
 
 
-/* ================= FINAL CLEAN RESPONSIVE FIX ================= */
-/* ===== HAMBURGER MENU ===== */
-/* MOBILE */
-/* @media (max-width: 768px) { 
-
-  .head1 {
-    flex-wrap: wrap;
-  }
-
-  .items1 {
-    width: 100%;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-
-  .text1 {
-    flex-direction: column;
-  }
-
-  .hero1 {
-    flex-direction: column;
-  }
-
-  .car1 {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .picture1 {
-    flex-direction: column;
-  }
-
-  .sunny1 {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .sunny-text1 {
-    width: 100%;
-  }
-
-  .feature-container1 {
-    flex-direction: column;
-  }
-
-  .footer-container {
-    flex-direction: column;
-  }
-
-  .lists2 {
-    flex-direction: column;
-  }
-
-  .filters2 {
-    width: 100%;
-  }
-
-  .pro-card2 {
-    width: 100%;
-  }
-
-  .main4 {
-    flex-direction: column;
-  }
-
-  .first,
-  .sec4 {
-    flex-direction: column;
-    gap: 10px;
-  }

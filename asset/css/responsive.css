@@ -1,0 +1,20 @@
+ @media(max-width:768px){
+  .picture1{
+    flex-direction: column;
+  }
+  .feature1{
+    background-color: blue;
+  }
+  /* .feature-card1{ 
+    background-color: blue;
+  /* } */
+}
+@media(max-width:480px){
+  .feature1{
+    background-color: yellow;
+
+  }
+  /* .feature-card1{ 
+    background-color: yellow;
+  /* } */
+}
