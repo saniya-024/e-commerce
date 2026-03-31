@@ -9,7 +9,12 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+.menuicon{
+  display: none;
+}
+#menu-toggle{
+  display: none;
+}
 .head1 {
   /* width: 100%; */
   height: 12vh;
@@ -34,6 +39,7 @@
 
   /* justify-content: center; */
 }
+
 .hamburger {
   display: none;
   font-size: 28px;
@@ -125,6 +131,15 @@
 
 }
 
+
+
+
+
+
+
+
+
+
 .para1 {
   padding-left: 600px;
   padding-top: 50px;
@@ -134,48 +149,77 @@
 
 .picture1 {
   padding-left: 100px;
-  padding-right: 430px;
-  position: relative;
+  /* padding-right: 430px; */
+
   display: flex;
   border-radius: 50px;
   gap: 20px;
+  position: relative;
+}
 
+.picture1 div {
+  height: 320px;
+  width: 290px;
+  /* color: #e62424; */
+  background-size: cover;
 
-  /* background-image: url("/Container\ \(2\).png"); */
 
 }
 
-.picture1 div{
-  height:220px;
-  width:100px;
-  
-}
-.picture1:first-child{
-background-image: url("/asset/images/men\ wear.png");
+.picture1 .first-img {
+
+  background-image:
+    linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.9),
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0)
+    ),
+    url("/asset/images/men\ wear.png");
+  background-repeat: no-repeat;
+  position: relative;
+  color: #fff;
+  background-position: center;
+  background-size: cover;
+
+
+
 
 }
-.
 
+.first-img>div {
+
+  position: absolute;
+  top: 200px;
+  left: 10px;
+}
+
+
+.second-img {
+  background-image: url("/asset/images/deadly\ shop.png");
+  background-repeat: no-repeat;
+  /* background-color: #ff1c1c; */
+  color: #fff;
+
+
+}
+
+.third-img {
+  background-image: url("/asset/images/lady.png");
+  color: #fff;
+}
+
+.forth-img {
+  background-image: url("/asset/images/lil\ girl.png");
+  color: #fff;
+}
 
 /* .one1 { 
   position: relative;
   /* width:600px; 
 /* } */
 
-.two1 {
-  position: absolute;
-  top: 240px;
-  color: var(--main-color);
-  padding-left: 20px;
-  font-weight: 500;
-}
 
-.twoo1 {
-  position: absolute;
-  top: 300px;
-  color: var(--main-color);
-  padding-left: 20px;
-}
 
 /* .twooo1 { 
   position: absolute;
@@ -224,8 +268,8 @@ background-image: url("/asset/images/men\ wear.png");
 
   padding: 20px;
   display: flex;
-justify-content: space-between;
-margin-left: 79px;
+  justify-content: space-between;
+  margin-left: 79px;
   /* flex-wrap: wrap; */
 
 
@@ -234,7 +278,7 @@ margin-left: 79px;
 .view1 {
   padding: 5px;
   border-radius: 10px;
-  border:none;
+  border: none;
   margin-right: 150px;
 
 
@@ -355,7 +399,7 @@ h4 {
   display: flex;
   justify-content: center;
   gap: 30px;
-  
+
   /* flex-wrap: wrap; */
 }
 
@@ -1260,7 +1304,7 @@ border-radius:5px;
   justify-content: center;
   flex-direction: column;
   padding-top: 20px;
-  
+
   gap: 5px;
   display: flex;
   width: 100%;
@@ -1288,7 +1332,3 @@ border-radius:5px;
   font-size: 28px;
   cursor: pointer;
 }
-
-
-
-
