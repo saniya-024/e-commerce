@@ -369,7 +369,9 @@ a {
     text-decoration: none;
     background: black;
     color: white;
-    padding: 12px 22px;
+    padding: 12px;
+    padding-left:40px;
+    padding-right: 35px;
     border-radius: 5px;
     
 }
