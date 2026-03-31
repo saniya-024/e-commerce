@@ -80,7 +80,8 @@ a {
 
 .hero {
     height: 600px;
-    background-image: url("./assets/image/LUXE\ img.png");
+
+    background-image: url("/asset/images/Hero.png")
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
