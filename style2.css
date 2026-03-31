@@ -22,7 +22,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 18px;
+    padding: 30px;
     border-bottom: 1px solid #ddd;
     background: #fff;
     position: sticky;
@@ -81,13 +81,14 @@ a {
 .hero {
     height: 600px;
 
-    background-image: url("/asset/images/Hero.png")
+    background-image: url("/asset/images/Hero.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
     padding-left: 80px;
+    
 }
 
 /* Text */
@@ -169,21 +170,21 @@ a {
     cursor: pointer;
 }
 
-/* 🔥 images alag-alag */
+
 .men {
-    background-image: url("./assets/image/Men.png");
+    background-image: url("/asset/images/men\ wear.png");
 }
 
 .women {
-    background-image: url("./assets/image/Women.png");
+    background-image: url("/asset/images/deadly\ shop.png");
 }
 
 .kids {
-    background-image: url("./assets/image/Kids.png");
+    background-image: url("/asset/images/lady.png");
 }
 
 .accessories {
-    background-image: url("./assets/image/Accessories.png");
+    background-image: url("/asset/images/lil\ girl.png");
 }
 
 /* overlay */
