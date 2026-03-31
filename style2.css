@@ -348,17 +348,18 @@ a {
 /* Text Area */
 
 .summer-text {
-    max-width: 500px;
+    max-width: 900px;
 }
 
 .summer-text h2 {
-    font-size: 36px;
+    font-size: 40px;
     margin-bottom: 15px;
 }
 
 .summer-text p {
-    font-size: 18px;
+    font-size: 20px;
     color: #555;
+    font-weight: 500;
     margin-bottom: 25px;
 }
 
@@ -370,12 +371,13 @@ a {
     color: white;
     padding: 12px 22px;
     border-radius: 5px;
+    
 }
 
 /* Image */
 
 .summer-image img {
-    width: 450px;
+    width:550px;
     border-radius: 10px;
 }
 
