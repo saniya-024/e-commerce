@@ -811,8 +811,8 @@ a {
 }
 
 .our-team h4{
-    font-size: 40px;
-    font-weight: 500;
+    font-size: 30px;
+    font-weight: 600;
     text-align: center;
     padding: 20px;
 }
@@ -859,6 +859,7 @@ a {
 
 .touch h2 {
     font-size: 50px;
+    font-weight: 500;
 }
 
 .touch p {
