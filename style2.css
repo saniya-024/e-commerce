@@ -682,11 +682,19 @@ a {
 }
 
 
-/* about luxe */
 
 .about-section {
-    width: 100%;
-    background-image: url("./assets/image/About\ lux.jpg");
+    /* width: 100%; */
+    background-color:grey;
+     background-image:   
+     /* linear-gradient(  
+      to top,
+      rgba(0, 0, 0, 0.8) 0%,   
+      rgba(0, 0, 0, 0.8) 0%, 
+      rgba(0, 0, 0, 0.8) 0%    
+    /* ), */
+     
+    url("/asset/images/About\ Us.png");
     height: 400px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -703,7 +711,7 @@ a {
     justify-content: center;
     height: 100%;
     color: #fff;
-    background-color: #323a4aad;
+    
 
 
 }
