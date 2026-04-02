@@ -151,7 +151,6 @@ a {
 }
 
 
-/* card */
 .category-card {
     width: 280px;
     height: 350px;
@@ -165,7 +164,6 @@ a {
     cursor: pointer;
 }
 
-/* 🔥 images alag-alag */
 .men {
     background-image: url("/asset/images/men\ wear.png");
 }
@@ -182,7 +180,7 @@ a {
     background-image: url("/asset/images/lady.png");
 }
 
-/* overlay */
+
 .overlay {
     position: absolute;
     top: 250px;
@@ -195,7 +193,7 @@ a {
 
 }
 
-/* text */
+
 .overlay h3 {
     color: white;
     font-size: 18px;
@@ -218,7 +216,6 @@ a {
 
 
 
-/* TRENDING PRODUCTS */
 
 .trending {
     padding: 60px 80px;
@@ -230,7 +227,7 @@ a {
 }
 
 .section-title {
-    /* text-align:center; */
+
     font-size: 32px;
     margin-bottom: 40px;
 }
@@ -245,16 +242,12 @@ a {
 
 
 .product-card {
-    /* background:white; */
+    
     border-radius: 10px;
-    /* padding: 10px; */
-    /* text-align:center; */
-    /* box-shadow:0 4px 10px rgba(0,0,0,0.1); */
-    /* border: 1px solid rgb(55, 54, 54); */
-    position: relative;
+        position: relative;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin: 0px;
-    /* ADD */
+    
 }
 
 .product-card .star {
