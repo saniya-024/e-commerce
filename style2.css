@@ -36,7 +36,7 @@ a {
 
 
 
-/* Logo style */
+
 .logo {
     font-size: 22px;
     font-weight: bold;
@@ -44,7 +44,7 @@ a {
 
 }
 
-/* Navigation links */
+
 .nav-links a {
     margin: 15px;
     text-decoration: none;
@@ -54,7 +54,7 @@ a {
 
 
 
-/* Hover effect */
+
 .nav-links a:hover {
     color: #888;
 }
@@ -90,7 +90,6 @@ a {
     padding-left: 80px;
 }
 
-/* Text */
 
 .hero-text h1 {
     font-size: 48px;
@@ -103,8 +102,6 @@ a {
     color: white;
     font-size: 18px;
 }
-
-/* Buttons */
 .hero-buttons {
     margin-top: 30px;
 }
@@ -118,7 +115,7 @@ a {
 }
 
 .btn1 {
-    /* margin-top: 10px; */
+    
     background: black;
     color: white;
     padding: 8px;
@@ -133,12 +130,11 @@ a {
 }
 
 
-/* CATEGORY SECTION */
 
 .category-sec {
     padding: 60px 80px;
     border-bottom: #ddd;
-    background-color: #e6dcdcd3;
+    background-color: #e6dcdceb;
 }
 
 .category-container {
