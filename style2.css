@@ -1089,12 +1089,14 @@ margin-top: 15px;
   display: flex;
   gap: 20px;              /* space between boxes */
   padding: 20px;
+  margin-top:20px;
   background: #eee;
+
 }
 
 .box {
-  width: 120px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
   background: #555;       /* default gray */
 }
 
@@ -1103,11 +1105,10 @@ margin-top: 15px;
   background: black;
 }
 
-/* active / selected box */
 .active {
-  border: 4px solid gray;   /* outer border */
-  outline: 3px solid #ccc;  extra light border effect
-}
+  border: 5px solid gray;   /* outer border */
+  /* outline: 3px solid #cccccc; */
+ } 
 
 
 
