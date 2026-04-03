@@ -23,7 +23,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top:20px;
+    margin-top:10px;
     padding: 18px;
     border-bottom: 1px solid #ddd;
     background: #fff;
@@ -52,8 +52,17 @@ a {
     margin: 15px;
     /* text-decoration: none; */
     color: gray;
-    font-size: 16px;
+
     gap:100px;
+    font-family: Noto Serif;
+font-weight: 400;
+font-style: Regular;
+font-size: 15px;
+line-height: 16px;
+letter-spacing: 1.2px;
+vertical-align: middle;
+text-transform: uppercase;
+
 }
 
 
@@ -1033,7 +1042,33 @@ a {
     color: #706e6e;
     font-size: 10px;
 }
+.heroo{
+    padding-top: 30px;
+        display: flex;
+        gap:290px;
+    
+}
+.rightside p{
+    color:gray;
+    letter-spacing: 2px;
+    padding-top: 10px;
 
+}
+.rightside h1{
+    padding-top: 10px;
+    font-family: Noto Serif;
+font-weight:900;
+font-style: Black;
+font-size: 50px;
+line-height: 60px;
+letter-spacing: 0.5px;
+}
+.rightside h4{
+    font-size:26px;
+    padding-top: 12px;
+    color:rgba(128, 128, 128, 0.986);
+    font-width: 100;
+}
 /* tablet viewport */
 @media(max-width:900px) {
     .nav-links {
