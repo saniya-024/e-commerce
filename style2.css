@@ -1044,7 +1044,7 @@ text-transform: uppercase;
 .heroo{
     padding-top: 100px;
         display: flex;
-        gap:90px;
+        gap:150px;
     
     
 }
@@ -1059,9 +1059,9 @@ text-transform: uppercase;
     font-family: Noto Serif;
 font-weight:bolder;
 /* font-style: Black; */
-font-size: 50px;
-line-height: 60px;
-letter-spacing: 0.5px;
+font-size: 80px;
+line-height: 80px;
+letter-spacing: 2px;
 }
 .rightside h4{
     font-size:26px;
@@ -1203,6 +1203,7 @@ padding-left: 30px;
     margin:0;
 
 }
+.composition-
 
 
 /* tablet viewport */
