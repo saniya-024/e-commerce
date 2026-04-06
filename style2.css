@@ -1139,7 +1139,30 @@ background:#494949;
     font-size:20px;
     padding-: 20px;
 }
+.select{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
 
+}
+.size-buttons{
+    display: grid;
+    grid-template-columns: 3(3,1fr);
+    gap:10px;
+    margin-top: 5px;
+}
+.size-buttons button{
+    padding:10px;
+    font-size: 15px;
+    border:1px solid #555;
+background: white;
+cursor:pointer;
+
+}
+.size-buttons button.box4{
+    background: #000;
+    color:white;
+}
 
 
 
