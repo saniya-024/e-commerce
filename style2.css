@@ -1283,7 +1283,27 @@ letter-spacing: 1px;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     padding-left: 120px;
+
+    gap:20px;
+    
 }
+.product-cardd{
+    margin-top: 40px;
+    border-radius: 20px;
+    object-fit:cover;
+}
+.product-cardd h4{
+    font-size: 22px;
+    padding-top: 10px;
+}
+.amount{
+    padding-top: 10px;
+}
+.product-cardd p{
+    padding-top: 30px;
+    letter-spacing: 0.5px;
+}
+
 
 
 /* tablet viewport */
