@@ -1303,6 +1303,51 @@ letter-spacing: 1px;
     padding-top: 30px;
     letter-spacing: 0.5px;
 }
+.review-section{
+    padding-left: 115px;
+    padding-top: 50px;
+}
+.review-section h2{
+    font-size: 32px;
+}
+.four{
+    padding-top: 20px;
+    font-size: 40px;
+}
+.star{
+    display: flex;
+    gap:20px;
+
+}
+.shape i{
+    
+    background-color: gold;
+}
+.shape{
+    padding-top: 30px;
+}
+.shape p{
+    padding-top: 5px;
+}
+.four{
+    font-weight: 700;
+    font-size: 50px;
+}
+.right-section{
+    padding-left: 280px;
+}
+.right-section h3{
+    font-size:23px;
+}
+.small-para{
+    font-size: 15px;
+    padding-top: 10px;
+}
+.big-para
+{
+    padding-top: 10px;
+    color:rgb(128, 128, 128);
+}
 
 
 
