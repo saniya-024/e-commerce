@@ -1304,8 +1304,13 @@ letter-spacing: 1px;
     letter-spacing: 0.5px;
 }
 .review-section{
-    padding-left: 115px;
+    padding-left: 37px;
     padding-top: 50px;
+
+    display: flex;
+    gap:320px;
+    width:90%;
+    margin: auto;
 }
 .review-section h2{
     font-size: 32px;
@@ -1313,45 +1318,75 @@ letter-spacing: 1px;
 .four{
     padding-top: 20px;
     font-size: 40px;
+
 }
 .star{
     display: flex;
     gap:20px;
+    width:400px;
+    
 
 }
-.shape i{
-    
-    background-color: gold;
-}
+
 .shape{
     padding-top: 30px;
 }
-.shape p{
-    padding-top: 5px;
+.shape5 p{
+    /* padding-top: 8px; */
+    font-size: 15px;
+    align-content: center;
 }
 .four{
     font-weight: 700;
-    font-size: 50px;
+    font-size: 70px;
 }
-.right-section{
-    padding-left: 280px;
+.right-star{
+     /* padding-left: 280px; */
+     /* padding-bottom: 300px; */
+    
+    
 }
-.right-section h3{
-    font-size:23px;
+.right-area{
+    /* padding-left: 280px; */
+display: flex;
+    /* gap:290px; */
+    
 }
-.small-para{
-    font-size: 15px;
+.right-area2{
+    display: flex;
+    padding-top: 50px;
+}
+.right-area2 h3{
+    font-size:25px;
+    font-weight: 700;
+}
+.right-area h3{
+    font-size:25px;
+    font-weight: 700;
+}
+.text-space h4{
+font-size: 16px;
+font-weight: 400;
+padding-top: 10px;
+}
+.text-space p{
     padding-top: 10px;
+
 }
-.big-para
-{
-    padding-top: 10px;
-    color:rgb(128, 128, 128);
+.stars{
+    width:50%;
+}
+.stars2{
+    width:50%;
+}
+.shape5{
+    align-content: center;
+    
 }
 
 
 
-/* tablet viewport */
+/* ta16px viewport */
 @media(max-width:900px) {
     .nav-links {
         display: none;
