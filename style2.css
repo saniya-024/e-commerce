@@ -1391,6 +1391,8 @@ input:checked+.square {
 .right-area {
     /* padding-left: 280px; */
     display: flex;
+
+    
     /* gap:290px; */
 
 }
@@ -1422,11 +1424,14 @@ input:checked+.square {
 }
 
 .stars {
-    width: 55%;
+    width: 80%;
 
 }
 
-.stars2 {}
+.stars2 {
+    width:70%;
+    padding-left: 70px;
+}
 
 .shape5 {
     align-content: center;
