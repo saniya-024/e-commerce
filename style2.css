@@ -1229,7 +1229,7 @@ input:checked+.square {
     gap: 60px;
     width: 100%;
     background-color: rgba(220, 37, 37, 0.105);
-    padding: 20px;
+    padding: 30px;
 }
 
 .composition-text {
@@ -1826,15 +1826,6 @@ input:checked+.square {
     .delivery {
         padding-left: 0;
     }
-}
-}
-
-
-
-
-
-/* ================= MOBILE (up to 768px) ================= */
-@media (max-width: 768px) {
 
     .heroo {
         flex-direction: column;
@@ -1878,5 +1869,65 @@ input:checked+.square {
 
     .delivery {
         padding-left: 0;
+    }
+    
+
+    .composition-section {
+        flex-direction: column;
+        gap: 30px;
+        padding: 20px;
+    }
+
+    .composition-text {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .composition-text h1 {
+        font-size: 32px;
+    }
+
+    .composition-icon {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .first-icon {
+        width: 45%;
+        height: auto;
+        padding: 20px 10px;
+    }
+
+    .composition-section {
+        padding: 15px;
+    }
+
+    .composition-text h1 {
+        font-size: 24px;
+    }
+
+    .composition-text p {
+        font-size: 14px;
+        padding-top: 15px;
+    }
+
+    .composition-icon {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .first-icon {
+        width: 90%;
+    }
+
+    .first-icon img {
+        width: 40px;
+        height: auto;
+    }
+
+    .first-icon p {
+        font-size: 13px;
+        padding-top: 10px;
     }
 }
