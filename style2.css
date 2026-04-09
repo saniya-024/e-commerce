@@ -1286,6 +1286,7 @@ input:checked+.square {
 
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 
 
 }
@@ -1336,9 +1337,7 @@ input:checked+.square {
 }
 
 .review-section {
-
-
-    display: flex;
+ display: flex;
     gap: 100px;
     width: 100%;
     margin: auto;
@@ -1544,9 +1543,39 @@ input:checked+.square {
         .btn4 {
             width: 100%;
         }
+        .ensemble {
+        padding: 40px 30px;
     }
 
+    .ensemble h1 {
+        font-size: 28px;
+    }
+
+    .arrow {
+        width: 35px;
+        height: 28px;
+    }
+    .product-sectionn {
+        grid-template-columns: repeat(2, 1fr); /* 2 cards */
+        padding: 40px 30px;
+    }
+
+    .product-cardd h4 {
+        font-size: 20px;
+    }
+
+    .product-cardd p {
+        padding-top: 20px;
+    }
 }
+
+
+
+
+
+
+
+
 
 /* mobile view port */
 @media(max-width:770px) {
@@ -1930,4 +1959,52 @@ input:checked+.square {
         font-size: 13px;
         padding-top: 10px;
     }
+    .ensemble {
+        flex-direction: column;   /* stack items */
+        text-align: center;
+        gap: 15px;
+        padding: 30px 20px;
+    }
+
+    .ensemble h1 {
+        font-size: 24px;
+    }
+
+    .ensemble-button {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .arrow {
+        width: 32px;
+        height: 26px;
+    }
+        .product-sectionn {
+        grid-template-columns: 1fr; /* 1 card */
+        padding: 30px 20px;
+    }
+
+    .product-cardd {
+        margin-top: 20px;
+    }
+
+    .product-cardd h4 {
+        font-size: 18px;
+    }
+
+    .product-cardd p {
+        font-size: 14px;
+        padding-top: 15px;
+    }
+
+    .amount {
+        font-size: 16px;
+    }
 }
+
+
+
+
+
+
