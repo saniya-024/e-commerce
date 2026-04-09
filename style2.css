@@ -1,4 +1,5 @@
-* {
+ @import url('https://fonts.googleapis.com/css2?family=Besley:ital@0;1&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+ * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,7 +8,7 @@
 
 /* Body font */
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Inter", sans-serif;
 }
 
 :root {
@@ -1061,9 +1062,9 @@ a {
 .rightside h1 {
     padding-top: 10px;
     font-family: Noto Serif;
-    font-weight: bolder;
+    font-weight: 700;
     /* font-style: Black; */
-    font-size: 80px;
+    font-size: 60px;
     line-height: 80px;
     letter-spacing: 2px;
 }
@@ -1228,7 +1229,7 @@ input:checked+.square {
     margin-top: 25px;
     gap: 60px;
     width: 100%;
-    background-color: rgba(220, 37, 37, 0.105);
+    background-color: rgba(220, 37, 37, 0);
     padding: 30px;
 }
 
@@ -1380,19 +1381,11 @@ input:checked+.square {
     font-size: 70px;
 }
 
-.right-star {
-    /* padding-left: 280px; */
-    /* padding-bottom: 300px; */
 
-
-}
 
 .right-area {
-    /* padding-left: 280px; */
-    display: flex;
 
-    
-    /* gap:290px; */
+    display: flex;
 
 }
 
@@ -1518,7 +1511,7 @@ input:checked+.square {
     }
 
     /* ================= TABLET (769px - 1024px) ================= */
-    @media (max-width: 1024px) {
+
 
         .heroo {
             gap: 50px;
@@ -1567,6 +1560,39 @@ input:checked+.square {
     .product-cardd p {
         padding-top: 20px;
     }
+
+    .review-section {
+        flex-direction: column;
+        gap: 40px;
+        padding: 40px 30px;
+    }
+
+    .star {
+        width: 100%;
+        gap: 20px;
+    }
+
+    .four {
+        font-size: 50px;
+    }
+
+    .right-area,
+    .right-area2 {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .stars,
+    .stars2 {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .right-area h3,
+    .right-area2 h3 {
+        font-size: 22px;
+    }
+
 }
 
 
@@ -2001,6 +2027,48 @@ input:checked+.square {
     .amount {
         font-size: 16px;
     }
+    
+    .review-section {
+        padding: 30px 20px;
+        text-align: center;
+    }
+
+    .left-star {
+        align-items: center;
+    }
+
+    .star {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .four {
+        font-size: 40px;
+    }
+
+    .shape5 p {
+        font-size: 13px;
+    }
+
+    .text-space h3 {
+        font-size: 20px;
+    }
+
+    .text-space h4 {
+        font-size: 14px;
+    }
+
+    .text-space p {
+        font-size: 14px;
+    }
+
+    .stars,
+    .stars2 {
+        justify-content: center;
+        display: flex;
+    }
+
 }
 
 
