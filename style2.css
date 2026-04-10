@@ -1442,6 +1442,132 @@
 
 
 
+ .main-lux{
+    width: 100%;
+    display: flex;
+   /* gap: 30px; */
+}
+
+
+.left{
+    width:50%;
+}
+.left{
+    /* width: 50%; */
+    background-image: url(/assets/image/login\ page\ front.png);
+    height: 580px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}
+.left{
+    position: relative;
+}
+.text{
+    position: absolute;
+    justify-content: center;
+    align-items:center;
+    bottom: 0px;
+  
+    letter-spacing: -2.4px;
+    font-size: 30px;
+    line-height: 28px;
+   padding: 90px 50px 30px 30px;
+   background: linear-gradient(0deg, rgba(249, 249, 249, 0.8) 0%, rgba(249, 249, 249, 0) 70%);
+}
+
+
+.text h2{   
+ margin: 10px 0px 11px 0px;
+}
+.text p{
+ font-size:15px;
+margin-top:8px;
+letter-spacing:1px;
+margin-left: 7px;
+    
+}
+
+
+
+
+.otp-box{
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    margin: 40px 0;
+  }
+  
+  .otp-box input{
+    width: 55px;
+    height: 55px;
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid #999;
+    outline: none;
+  }
+  
+  .otp-box input:focus{
+    border-color: black;
+  }
+  .verify{
+   width:100%;
+  padding:12px;
+  background:black;
+  color:white;
+  border:none;
+  cursor:pointer;
+  }
+  .send{
+      margin-top: 10px;
+      display: flex;
+      justify-content: space-between;
+  }
+  .send p{
+      margin-top: 10px;
+      font-weight: 500;
+     
+  }
+  .code{
+  padding:0px 5px;
+  color:#000;
+  border:none;
+  cursor:pointer;
+  font-size:12px;
+  
+  }
+  .expire{
+      margin-top: 5px;
+      margin-left:75%;
+  }
+  .security{
+  display:flex;
+  justify-content: space-between;
+  /* align-items:center; */
+  gap:12px;
+  margin-top:10px;
+  color:#666;
+  font-size:14px;
+  }
+  
+  .security i{
+  font-size:18px;
+  color:#888;
+  }
+  /* .editorial{
+  text-align:center;
+  font-size:12px;
+  letter-spacing:3px;
+  color:#999;
+  } */
+
+
+
+
+
+
+
  /* ta16px viewport */
  @media(max-width:900px) {
      .nav-links {
